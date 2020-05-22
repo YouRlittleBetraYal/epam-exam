@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js calc</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <section class="calc-main">  
+        <div class="calc">
+            <h2 class="top-h">js calc</h2>
+            <div class="calc-input">
+                <input class="inpt" type="text" id="n1" placeholder="Введіть перше число">
+                <input class="inpt" type="text" id="n2" placeholder="Введіть друге число">
+            </div>
+            <div class="calc-buttn">
+                <button class="but" onclick="plus()">+</button>
+                <button class="but" onclick="minus()">-</button>
+            </div>
+            <div class="calc-buttn">
+                <button class="but" onclick="umnoj()">*</button>
+                <button class="but" onclick="delenie()">/</button>
+            </div>
+            <div class="calc-result">
+                <h2>Відповідь:<p id="out"></p></h2>
+            </div>
+        </div>
+    </section>
+    <script src="calc.js"></script>
+</body>
+
+</html>

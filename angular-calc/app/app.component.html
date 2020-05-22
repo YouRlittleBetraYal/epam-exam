@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc angular</title>
+</head>
+<body>
+    <div class="calcmain">
+        <div class="bl">
+        <h1>
+            {{title}}!
+        </h1>
+        <div class="inpt">
+        <input class="unpp" type="number" name="num1" [(ngModel)]="num1" placeholder="Введіть перше число">
+        <input class="unpp" type="number" name="num2" [(ngModel)]="num2" placeholder="Введіть друге число">
+        </div>
+        <div class="but">
+        <button (click)="plus()" class="add">+</button>
+        <button (click)="minus()" class="minu">-</button>
+        <button (click)="umnoj()">*</button>
+        <button (click)="delen()">/</button>
+        </div>
+        <div class="hh3">
+            <h3>Результат: {{num3}}</h3>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
+<router-outlet></router-outlet>

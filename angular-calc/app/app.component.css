@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.calcmain{
+   font-family: 'Segoe UI';
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.calcmain h1{
+    margin: 3px;
+    color: hotpink;
+    text-shadow: #000000 1px 0 10px;
+}
+
+.hh3{
+    display: flex;
+    justify-content: center;
+}
+
+.calcmain h3{
+    width: 80%;
+    opacity: 0.6;
+    border-radius: 20px;
+    text-shadow: #000000 1px 0 10px;
+    color: hotpink;
+    margin-bottom: 10%;
+    border: 2px solid  #3ed7e1;
+    background-color: black;
+}
+
+.bl{
+    height: 400px;
+    width: 300px;
+    background: linear-gradient(#e66465, #9198e5);
+    border: 2px solid #3ed7e1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    vertical-align: bottom;
+    text-align: center;
+}
+
+.inpt{
+  margin: 10px;
+}
+
+.unpp{
+    outline: none;
+    text-align: center;
+    font-size: 16px;
+    width: 60%;
+    margin: 2px;
+    opacity: 0.6;
+    border-radius: 20px;
+    text-shadow: #000000 1px 0 10px;
+    color: hotpink;
+    border: 2px solid  #3ed7e1;
+    background-color: black;
+}
+.but{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    font-size: 18px;
+    width: 60%;
+    margin: 2px;
+    opacity: 0.6;
+    border-radius: 20px;
+    text-shadow: #000000 1px 0 10px;
+    color: hotpink;
+    border: 2px solid  #3ed7e1;
+    background-color: black;
+    outline: none;
+  }
